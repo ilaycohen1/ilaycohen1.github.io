@@ -1,0 +1,61 @@
+img {
+    width: min-content;
+    height: 200px;
+}
+
+img:hover {
+    background-color: blanchedalmond;
+}
+
+.clown {
+    width: min-content;
+    height: 100px;
+}
+
+.gorilla {
+    width: min-content;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .gorillas, .clowns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+.imageStory {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-color: black;
+    padding: 10px;
+    border-style: solid ;
+}
+
+.imageStories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.title {
+    text-align: center;
+    padding: 5px;
+}
